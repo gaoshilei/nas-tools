@@ -1,7 +1,7 @@
 version: "3"
 services:
   nas-tools:
-    image: jxxghp/nas-tools:latest
+    image: goslei/nas-tools:latest
     ports:
       - 3000:3000        # 默认的webui控制端口
     volumes:
